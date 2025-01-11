@@ -1,0 +1,4 @@
+name: AnvilRecipesAPI
+version: '1.0.0'
+main: me.vovari2.anvilrecipes.AnvilRecipesAPI
+api-version: '1.20'
