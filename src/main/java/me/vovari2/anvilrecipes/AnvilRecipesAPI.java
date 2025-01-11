@@ -3,9 +3,8 @@ package me.vovari2.anvilrecipes;
 import org.bukkit.inventory.ItemStack;
 
 public interface AnvilRecipesAPI {
-    static AnvilRecipesAPI imp = new AnvilRecipesAPIImp();
     static AnvilRecipesAPI inst() {
-        return imp;
+        return AnvilRecipesAPIImp.imp;
     }
     void addRecipe(AnvilRecipe recipe);
     void removeRecipe(AnvilRecipe recipe);

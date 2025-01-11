@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 class AnvilRecipesAPIImp implements AnvilRecipesAPI{
+    static AnvilRecipesAPI imp = new AnvilRecipesAPIImp();
     private static List<AnvilRecipe> recipes;
     AnvilRecipesAPIImp(){
         recipes = new LinkedList<>();
